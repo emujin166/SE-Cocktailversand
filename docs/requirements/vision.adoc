@@ -12,7 +12,8 @@ Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäte
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das System {project-system-name}, das von <Team> entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das System {Your cocktail at home}, das von <Team> entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Materialverwaltung, falls die Zutaten alle sind. Dadurch wissen die Kunden, welche Cocktails bestellen kann 
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -34,13 +35,13 @@ Siehe <<#glossary, Glossar>>.
 
 [cols="1,3"]
 |===
-| Für | [Zielkunde / Persona]
-| der / die | [Angabe des Bedarfs oder Chance]
-| ist das  | [Produktname]
-| eine  | [Produktkategorie]
-| der / die | [Aussage zum Hauptvorteil / Alleinstellungsmerkmal]
-| anders als | [wesentliche Lösungsalternative]
-| kann unser Produkt | [Aussage zum Hauptunterschied]
+| Für | Cocktail-Liebhaber
+| der / die | Cocktails online bestellt bekommen und zuhause selber zusammenstellen will
+| ist das  | *Your cocktail at home*
+| eine  | Online Alkohol Dienstleister
+| der / die | Bestellung und Bezahlung der Cocktails online ermöglicht
+| anders als | persönlichem Besuch an der Bar
+| kann unser Produkt | nach persönlichem Geschmack individuell gestaltet werden und das Genießen zuhause mit Freunden und Familie ermöglichen
 |===
 
 
@@ -62,11 +63,29 @@ Siehe <<#glossary, Glossar>>.
 
 [%header, cols="1,3,3"]
 |===
-| Name | Beschreibung | Verantwortlichkeiten
+| Name | Beschreibung der Motivation| Verantwortlichkeiten
 
-| [Benennung des Stakeholders (als Rolle)]
-| [Kurze Beschreibung des Stakeholders und seiner Ziele]
-| [Fassen Sie die wesentlichen Verantwortlichkeiten des Stakeholder mit Bezug auf das zu entwickelnde System kurz zusammen, d.h. ihr besonderen Interessen. Beispiele: Dieser Stakeholder sorgt dafür, dass das System gewartet wird / dass die angezeigten Daten aktuell sind / überwacht den Projektfortschritt / usw.]
+| _Kunde_: Bar-Betreiber
+
+_Nutzer_: Cocktail-Besteller, Bar-Besucher
+
+_Gesetzgeber_: Hygienevorschriften, DSGVO, Jugendschutz
+
+_Lieferer_: Lieferdienst
+_Zahlungsdienstleister_: technische, inhaltliche, rechtliche Bedingungen 
+
+| Die Besteller wollen für bestimmte Anlässe special Cocktails bekommen
+| _Kunde_: beanfrage Entwicklung
+
+_Nutzer_: Cocktailbesteller
+
+_Gesetzgeber_: Gesetzbeinhaltung prüfen
+
+_Lieferdienst_: Liefert die Produkte
+
+_Zahlungsdienstleister_: Es ist eine Schnittstelle zwischen Kunden und Dienstleistanbieter (Barbetreiber)
+
+Der Stakeholder bestellt das angebotene Online Item und bezahlt dafür. Sie sorgen dafür, dass die Dresdner-Bar den Online Shop einfach wie möglich gestaltet, aktuelle Angebote per Email sendet und Storniermöglichkeiten nach der Bestellung anbietet. Schließlich sollen die bestellten Produkte per Lieferung gesendet werden. 
 |===
 
 Die Verfeinerung der Stakeholder, die das System benutzen, wird im UX-Konzept mittels Personas vorgenommen.
@@ -80,7 +99,16 @@ Die Verfeinerung der Stakeholder, die das System benutzen, wird im UX-Konzept mi
 [%header, cols="4,1,4,1"]
 |===
 | Bedarf | Priorität | Features / Funktionen | Geplantes Release
-| xx | xx | xx | xx
+|  |  | Lieferdienst | xx.xx.xxxx
+| individuelle Cocktails | 1 | Auswahl der Zutaten zur eigenen Kreationen per Webseite  | xx.xx.xxxx
+| Kunden benutzen verschiedene Banksysteme | 3 | verschiedene Bezahlmöglichkeiten| xx.xx.xxxx
+| Kunden wollen einen Nachweis/Bestätigung der Bestellung bekommen | xx | Bestellbestätigung per Email | xx.xx.xxxx
+| xx | xx | Bestellhistorie mit Status| xx.xx.xxxx
+| Kunden wollen die Webseite möglichst einfach und schnell benutzen/Barrierefreihet | xx | einfache Benutzeroberfläche | xx.xx.xxxx
+| Treukunden wollen special Angebote bekommen | xx | special Angebote per Email schicken | xx.xx.xxxx
+| Agil/ | xx | keine Mindest- und Höchstbestellmenge | xx.xx.xxxx
+| xx | xx | keine Rechnung -> Sperrung der Bestellung | xx.xx.xxxx
+| xx | xx | Stammkunde -> Besondere Konditionen (Rabatt, special Angebote ) | xx.xx.xxxx
 |===
 
 
